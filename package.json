@@ -1,0 +1,15 @@
+{
+  "name": "webacademy",
+  "version": "1.0.0",
+  "description": "Continious Deployment with Github Actions, DockerHub",
+  "scripts": {
+    "lint": "eslint \"**/*.{js,jsx}\"",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0"
+  }
+}
